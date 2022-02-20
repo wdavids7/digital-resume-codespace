@@ -3,6 +3,12 @@ body{
   font-size:110%;
   background-color: #FCF7F8;
 }
+#profilePhoto{
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  border: 3px solid coral;
+}
 
 header {
   text-align: center;
@@ -21,10 +27,17 @@ footer {
   color: #012E40;
 }
 #sidebar{
-  width: 250px;
+  width: 200px;
   background-color: #012E40;
+  padding: 1rem;
   color: white;
 }
 .nav-menu{
   list-style-type:none;
+  padding: 0%;
+}
+.icons{
+  width: 5rem;
+  margin: 1rem;
+  height: auto;
 }
