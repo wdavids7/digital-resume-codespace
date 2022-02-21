@@ -1,43 +1,85 @@
 body{
   font-family: sans-serif;
+  color: #012E40;
   font-size:110%;
   background-color: #FCF7F8;
+  margin:auto;
+  border: 20px solid #012E40;
+  border-radius:0%;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
 }
+.main{
+  display: flex;
+  flex-direction: row;
+  overflow: unset;
+}
+
 #profilePhoto{
-  width: 20%;
-  height: 20%;
+  width: 15%;
+  height: 15%;
   border-radius: 50%;
   border: 3px solid coral;
 }
 
 header {
   text-align: center;
+  justify-content: center;
 }
 #heading{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 110%;
   background-color: darkgrey;
   color: #012E40;
+  padding: 1rem;
 }
 
 footer {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 70%;
   background-color: darkgrey;
   text-align: center;
   color: #012E40;
+  padding: 0.1rem;
 }
 #sidebar{
-  width: 200px;
+  width: 30%;
   background-color: #012E40;
-  padding: 1rem;
   color: white;
+  padding: 1rem;
+  text-align: justify;
+  margin-right: 1rem;
 }
 .nav-menu{
   list-style-type:none;
   padding: 0%;
 }
+.nav-menu a {
+  float: left;
+  color:white;
+  text-align: left;
+  padding: 0.1rem;
+  text-decoration: none;
+}
+.nav-menu a:visited{
+  color: white;
+}
+.nav-menu a:hover{
+  color: #3CA6A6;
+}
+.nav-menu a:active{
+  color: coral;
+}
 .icons{
   width: 5rem;
   margin: 1rem;
   height: auto;
+  text-decoration: none;
+}
+a:link, a:visited{
+  color: #3CA6A6;
+}
+a:hover, a:active{
+  color: coral;
 }
