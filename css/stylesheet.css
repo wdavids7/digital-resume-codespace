@@ -130,3 +130,6 @@ hr.half-width {
   list-style-type: none;
   line-height: 20px;
 }
+#ulbottomlist{
+  margin-block: 5%;
+}
