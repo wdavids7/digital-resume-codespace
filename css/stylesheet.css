@@ -1,85 +1,132 @@
-body{
+body {
   font-family: sans-serif;
-  color: #012E40;
-  font-size:110%;
-  background-color: #FCF7F8;
-  margin:auto;
-  border: 20px solid #012E40;
-  border-radius:0%;
+  color: #012e40;
+  font-size: 110%;
+  background-color: #fcf7f8;
+  margin: auto;
+  border: 20px solid #012e40;
+  border-radius: 0%;
   padding: 0.5rem;
   display: flex;
   flex-direction: column;
 }
-.main{
+.main {
   display: flex;
   flex-direction: row;
   overflow: unset;
 }
 
-#profilePhoto{
+#profilePhoto {
   width: 15%;
   height: 15%;
   border-radius: 50%;
   border: 3px solid coral;
 }
-
 header {
   text-align: center;
   justify-content: center;
 }
-#heading{
+#heading {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 110%;
+  font-size: 95%;
   background-color: darkgrey;
-  color: #012E40;
+  color: #012e40;
   padding: 1rem;
 }
-
+#introstatement {
+  text-align: justify center;
+  font-size: 85%;
+}
 footer {
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 70%;
   background-color: darkgrey;
   text-align: center;
-  color: #012E40;
+  color: #012e40;
   padding: 0.1rem;
 }
-#sidebar{
-  width: 30%;
-  background-color: #012E40;
+#sidebar {
+  width: 50%;
+  background-color: #012e40;
   color: white;
-  padding: 1rem;
-  text-align: justify;
+  padding: 0 1rem 0 2rem;
   margin-right: 1rem;
+  text-align: left;
+    
 }
-.nav-menu{
-  list-style-type:none;
+.nav-menu {
+  list-style-type: none;
   padding: 0%;
+  text-align: left;
 }
 .nav-menu a {
-  float: left;
-  color:white;
+  float:inline-start;
+  color: white;
   text-align: left;
-  padding: 0.1rem;
+  padding: 0;
   text-decoration: none;
+  line-height: 2em;
 }
-.nav-menu a:visited{
+.nav-menu a:visited {
   color: white;
 }
-.nav-menu a:hover{
-  color: #3CA6A6;
+.nav-menu a:hover {
+  color: #3ca6a6;
 }
-.nav-menu a:active{
+.nav-menu a:active {
   color: coral;
 }
-.icons{
+.icons {
   width: 5rem;
   margin: 1rem;
   height: auto;
   text-decoration: none;
 }
-a:link, a:visited{
-  color: #3CA6A6;
+a:link,
+a:visited {
+  color: #3ca6a6;
 }
-a:hover, a:active{
+a:hover,
+a:active {
   color: coral;
+}
+h4 {
+  color: #b8c2cc;
+}
+h3 {
+  color: #525c66;
+}
+#calendarcolor h5 {
+  color: coral;
+  font-size: 90%;
+  line-height: 5px;
+}
+#menu h3 {
+  color: white;
+  letter-spacing: 0.5em;
+}
+#references h5 {
+  color: #012e40;
+}
+#qualification h5 {
+  color: #b8c2cc;
+  font-size: 90%;
+  line-height: 5px;
+}
+.foo {
+  margin-bottom: 1em;
+}
+
+hr.half-width {
+  width: 50%;
+  margin-left: 0%;
+  border-top: 1px solid lightgray;
+}
+#bottomlist{
+  list-style-type:none;
+  line-height: 20px;
+}
+#educationlist{
+  list-style-type: none;
+  line-height: 20px;
 }
