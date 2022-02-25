@@ -81,6 +81,7 @@ footer {
   margin: 1rem;
   height: auto;
   text-decoration: none;
+  background-color: transparent;
 }
 a:link,
 a:visited {
@@ -96,7 +97,7 @@ h4 {
 h3 {
   color: #525c66;
 }
-#calendarcolor h5 {
+.calendarcolor h5 {
   color: coral;
   font-size: 90%;
   line-height: 5px;
@@ -108,7 +109,7 @@ h3 {
 #references h5 {
   color: #012e40;
 }
-#qualification h5 {
+.qualification h5 {
   color: #b8c2cc;
   font-size: 90%;
   line-height: 5px;
