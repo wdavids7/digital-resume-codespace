@@ -33,7 +33,7 @@ header {
   color: #012e40;
   padding: 1rem;
 }
-#introstatement {
+#introStatement {
   text-align: justify center;
   font-size: 85%;
 }
@@ -97,7 +97,7 @@ h4 {
 h3 {
   color: #525c66;
 }
-.calendarcolor h5 {
+.calendarColor h5 {
   color: coral;
   font-size: 90%;
   line-height: 5px;
@@ -123,14 +123,14 @@ hr.half-width {
   margin-left: 0%;
   border-top: 1px solid lightgray;
 }
-#bottomlist{
+#bottomList{
   list-style-type:none;
   line-height: 20px;
 }
-#educationlist{
+#educationList{
   list-style-type: none;
   line-height: 20px;
 }
-#ulbottomlist{
+#ulBottomList{
   margin-block: 5%;
 }
